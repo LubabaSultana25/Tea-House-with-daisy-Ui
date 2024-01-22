@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- tailwind & daisyUi -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -38,17 +40,30 @@
 
 <body>
     <!-- header -->
-    <header class="container mx-auto">
+    <header class="">
         <!-- banner section -->
         <div class="hero">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src="images/bg_cup.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div class="hero-content flex-col-1 ">
+
                 <div>
                     <h1 class="text-5xl font-extrabold">It's good <br>
                         tea time at The <br> Tea House</h1>
                     <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                     </p>
-                    <button class="btn btn-primary">Explore More</button>
+                    <button class="btn btn-error">Explore More</button>
+                </div>
+                <div class="">
+                    <img src="./images/banner.png" class="max-w-sm" />
+                    <!-- star badge -->
+                    <div class=" -mt-14 flex items-center gap-4 drop-shadow-lg bg-white p-5 rounded-lg w-60">
+                        <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                        <div>
+                            <h3 class="text-3xl">
+                                5.00
+                            </h3>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
